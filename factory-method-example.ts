@@ -35,3 +35,15 @@ class PersonFactory {
     }
   }
 }
+
+/* In the above code you can see the creation of one interface called IPerson 
+and two implementations called Villager and CityPerson. Based on the type passed 
+into the PersonFactory object, we are returning the original concrete object as the 
+interface IPerson.
+
+A factory method is just an addition to PersonFactory class. It creates the 
+object of the class through interfaces but on the other hand, it also lets the subclass 
+decide which class is instantiated.
+*/
+
+
